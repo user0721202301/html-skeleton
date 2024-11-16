@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(90deg, rgb(100, 0, 0), rgb(120, 0, 0));
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: rgb(29, 20, 3);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  font-size: 24px;
+  font-weight: 100;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul li {
+  text-transform: capitalize;
+
+  padding: 0 12px;
+}
+
+header nav ul li a {
+  color: rgb(255, 165, 0);
+}
+
+main section h1 {
+  text-transform: capitalize;
+  font-size: 42px;
+  font-weight: bold;
+
+  color: rgb(255, 165, 0);
+
+  text-align: center;
+
+  margin: 24px auto 48px auto;
+}
+
+.items {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto 48px auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  gap: 20px 20px;
+}
+
+.item {
+  background-color: cadetblue;
+  padding: 0 0 20px 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.item img {
+  height: 150px;
+  width: 300px;
+  object-fit: cover;
+}
+
+.item p {
+  color: aliceblue;
+  text-transform: capitalize;
+}
+
+.item a {
+  text-decoration: none;
+  text-transform: capitalize;
+
+  color: aliceblue;
+  background-color: black;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+#logo a {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(255, 165, 0);
+}
